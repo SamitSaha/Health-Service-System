@@ -337,6 +337,7 @@ header .fa-bars{
     /* ------------------Footer part starts---------------  */
 .footer{
     background: var(--black);
+    padding-top: 2rem;
 }
 .footer p{
     font-size: 1.5rem; color: #eee; padding: 1rem 0;
@@ -348,24 +349,25 @@ header .fa-bars{
     font-size: 3rem; color: var(--blue);
 }
 .footer a{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ccc;
     display: block;
+    padding-left: 2rem;
 }
 .footer h3{
     color: #fff;
-    font-size: 3rem;
+    font-size: 3rem; padding-left: 2rem;
 }
 .footer a:hover{
     color: var(--blue);
 }
 .footer .credit{
-    color: #fff;    width: 80%;
-    margin: 0;  padding: 2rem 0;
+    color: #fff;    width: 80%; 
+    margin: 0;  padding: 2rem 0;    text-align: center;
     padding-bottom: 4rem;   border-top: .1rem solid #ccc !important;
 }
 .footer .credit span{
-    color: var(--blue);
+    color: var(--blue); font-size: 2rem;
 }
     /* ------------------Footer part ends---------------  */
 
