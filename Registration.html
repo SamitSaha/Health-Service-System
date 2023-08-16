@@ -140,7 +140,7 @@
                             </div>
                             <p>or use your account</p>
 
-                            <form action="#">
+                            <form action="index.html">
 
                                 <div class="input-field">
                                     <label for="Email1">
@@ -233,20 +233,7 @@
 
 
 
-    <script>
-        const user_con = document.querySelector('.user-container');
-        const regis_btn = document.querySelector('.registration-btn');
-        const login_btn = document.querySelector('.login-btn');
-
-        regis_btn.addEventListener('click', () => {
-            user_con.classList.add('login-section--display')
-        })
-
-        login_btn.addEventListener('click', () => {
-            user_con.classList.remove('login-section--display')
-        })
-
-    </script>
+    
 
 
 
@@ -267,6 +254,21 @@
         AOS.init({
             duration: 1000,
             delay: 400,
+        })
+
+    </script>
+
+    <script>
+        const user_con = document.querySelector('.user-container');
+        const regis_btn = document.querySelector('.registration-btn');
+        const login_btn = document.querySelector('.login-btn');
+
+        regis_btn.addEventListener('click', () => {
+            user_con.classList.add('login-section--display')
+        })
+
+        login_btn.addEventListener('click', () => {
+            user_con.classList.remove('login-section--display')
         })
 
     </script>

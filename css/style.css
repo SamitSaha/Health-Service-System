@@ -411,8 +411,18 @@ header .fa-bars{
 }
 .registration-header .nav ul li a{
     font-size: 2rem;
-    color: #fff;
+    color: var(--black);
 }
+.registration-header .fa-bars{
+    font-size: 3.5rem;
+    color: var(--blue);
+    cursor: pointer;
+    display: block;
+}
+/* .registration-header .fa-bars{
+    font-size: 2rem;
+    color: var(--black);
+} */
 .hey{
     min-height: 80vh;
     display: flex;
@@ -582,5 +592,30 @@ header .fa-times{
     }
     .Contact form input[type="submit"]{
         width: 100%;
+    }
+
+    .grid-two--column{
+        
+        grid-template-columns:  1fr;
+    }
+
+    .registration-header .container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .registration-header .container .logo{
+        padding-top: 2rem;
+    }
+    .registration, .login{
+        min-width: 90vw;
+    }
+    .form-text{
+        order: 1;
+    }
+    .registration, .login{
+        order: 0;
+    }
+    .form-text p{
+        width: 25ch;
     }
 }
