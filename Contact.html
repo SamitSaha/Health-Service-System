@@ -59,15 +59,15 @@
         <div class="row justify-content-center">
             <h1 class="heading"><span>'</span> Make an Appoinment <span>'</span></h1>
             <div class="col-md-10" data-aos="flip-down">
-                <form action="">
+                <form action="contact.php" method="post" class="">
 
                     <div class="inputbox">
-                        <input type="text" placeholder="full name">
-                        <input type="number" placeholder="phone">
+                        <input type="text" name="name" placeholder="full name">
+                        <input type="number" name="phone" placeholder="phone">
                     </div>
 
                     <div class="inputbox">
-                        <input type="email" placeholder="your email">
+                        <input type="email" name="email" placeholder="your email">
                         <select name="" id="">
                             <option value="" disabled selected>Make an Appoinment</option>
                             <option value="09-11 am">09-11 am</option>
@@ -79,8 +79,8 @@
                         </select>
                     </div>
 
-                    <textarea name="" id="" cols="30" rows="10" placeholder="message ( optional )"></textarea>
-                    <input type="submit" name="" id="" value="make appoinment" class="button">
+                    <textarea name="text" type="text" id="" cols="30" rows="10" placeholder="message ( optional )"></textarea>
+                    <input type="submit" name="send" id="" value="make appoinment" class="button">
 
                 </form>
             </div>
