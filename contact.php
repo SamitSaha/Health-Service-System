@@ -9,9 +9,9 @@
         
 
         $request = " insert into health_contact(name,email,phone,text) values
-        ('$name','$email','$phone','$text') ";
+        ('$name','$email','$phone','$text')";
         mysqli_query($connection, $request);
-        header('location:Contact.html');
+        header('location: Contact.html');
 
     }
     else{
